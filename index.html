@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPERIMENT listing page</title>
+    <style>
+        .div1 {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid rgb(223, 218, 218);
+            height: 600px;
+            width: 250px;
+            position: absolute;
+
+        }
+
+        .ol2 {
+            list-style-type: circle;
+        }
+
+        .ol1 {
+            list-style-type: circle;
+        }
+
+        .ol3 {
+            list-style-type: circle;
+        }
+
+        .itemes {
+            margin-left: 30px;
+
+        }
+
+        .boxfortext {
+            height: 20px;
+            width: 800px;
+            position: absolute;
+            display: inline-block;
+            margin: 0px 148px 0px 293px;
+            border: 1px solid gainsboro;
+
+        }
+
+        .div2 {
+            display: inline-block;
+
+            padding: 0px;
+            /* border: 2px solid blue; */
+            height: 300px;
+            width: 700px;
+            position: absolute;
+            margin: 53px 150px 0px 393px;
+            box-shadow: 8px 13px 8px;
+
+
+        }
+
+        .div3 {
+            display: inline-block;
+            /* margin: 406px 150px 2px 393px; */
+            margin: 53px 150px 2px 0px;
+            padding: 0px;
+            /* border: 2px solid black; */
+            height: 300px;
+            width: 700px;
+            box-shadow: 8px 13px 8px;
+
+
+        }
+
+        .div21 {
+
+            height: 100%;
+            width: 50%;
+
+
+
+
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            border-radius: 35px;
+        }
+
+        .div22 {
+            display: block;
+            padding: 0px;
+
+            /* background-color: aqua; */
+            width: 50%;
+            height: 100%;
+            margin: -321px 0px 0px 350px;
+
+
+        }
+
+        .div21 img:hover {
+            transform: scale(1.1);
+
+        }
+
+        .div31 {
+            height: 100%;
+            width: 50%;
+
+        }
+
+
+        .div32 {
+            display: block;
+            padding: 0px;
+
+            /* background-color: gold; */
+            width: 50%;
+            height: 100%;
+            margin: -321px 0px 0px 350px;
+
+
+        }
+
+        .div31 img:hover {
+            transform: scale(1.1);
+
+        }
+
+        .div7 {
+            display: inline-block;
+            margin: 53px 150px 2px 0px;
+            padding: 0px;
+            /* border: 2px solid rgb(242, 82, 82); */
+            height: 300px;
+            width: 700px;
+            box-shadow: 8px 13px 8px;
+
+
+        }
+
+        .div71 img:hover {
+            transform: scale(1.1);
+
+        }
+
+        .div71 {
+            height: 100%;
+            width: 50%;
+
+        }
+
+        .div72 {
+            display: block;
+            padding: 0px;
+
+            /* background-color: gold; */
+            width: 50%;
+            height: 100%;
+            margin: -321px 0px 0px 350px;
+
+
+        }
+
+
+        .container {
+            margin: 25px 0px 0px 0px;
+            /* border: 5px solid black; */
+        }
+
+
+        /* from here css of header start  and also where it ends is written in notes */
+        .header {
+            padding: 0px 0px;
+            margin: 0px 0px 0px 0px;
+
+            background-color: gold;
+
+        }
+
+        .div4 {
+            /* border: 2px solid darkkhaki; */
+            display: inline-block;
+            height: 30px;
+            position: absolute;
+            left: 20px;
+            top: 0px;
+
+
+
+
+        }
+
+        .div4 img {
+            width: 60px;
+            height: 100;
+            margin-top: 7px;
+        }
+
+        .div42 {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .div5 {
+            /* border: 2px solid hotpink; */
+            width: 400px;
+            /* height: 40px; */
+            margin: auto;
+
+
+
+
+
+        }
+
+
+        .div6 {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            /* border: 2px solid royalblue; */
+            display: inline-block;
+
+            height: 30px;
+            width: 100px;
+
+
+
+
+        }
+
+        .div61 {
+            /* border: 1px solid rebeccapurple; */
+            height: 100%;
+            width: 50%;
+            display: inline-block;
+
+
+
+
+        }
+
+        .div62 {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            /* border: 1px solid red; */
+            width: 50%;
+            height: 100%;
+        }
+
+        .div61 img:hover {
+            transform: scale(1.1);
+        }
+
+        .div62 img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .div61 img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .div62 img {
+            width: 100%;
+            height: 100%;
+
+
+        }
+
+
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 0px 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0px 9px 0px 9px;
+
+        }
+
+        .navbar li a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        /* here the css of header is ending  this is to make you understand */
+
+
+        .btn {
+            background-color: black;
+            color: white;
+            display: inline-block;
+
+        }
+
+        .button {
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: rgb(92, 116, 68);
+        }
+
+        /* from here the css offfffffffffffffffffffffff the ratinf start   sooooooo */
+        .volume {
+            height: 30px;
+            width: 120px;
+            /* background-color: aqua; */
+            display: inline-block;
+        }
+
+
+
+        .ratting input {
+            display: none;
+        }
+
+        .ratting {
+            direction: rtl;
+        }
+
+        .ratting label {
+            display: inline-block;
+            width: 20px;
+            /* htere is no meaning of height  */
+            height: 20px;
+            position: relative;
+            cursor: pointer;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        .ratting label:before {
+            content: '\2730';
+            position: absolute;
+            font-size: 20px;
+
+            display: inline-block;
+            top: 0;
+            left: 0;
+
+        }
+
+        .ratting label:after {
+            content: '\2730';
+            position: absolute;
+            font-size: 20px;
+
+            display: inline-block;
+            top: 0;
+            left: 0;
+            color: rgb(248, 248, 4);
+            opacity: 0;
+
+
+        }
+
+        .ratting label:hover:after,
+        .ratting label:hover~label:after,
+        .ratting input:checked~label:after {
+            opacity: 1;
+        }
+
+        .side {
+            position: absolute;
+            top: 65px;
+            /* top: 85px; for your listing page */
+            left: 500px;
+            display: inline-block;
+            margin: 0px 0px;
+            padding: 0px 0px;
+
+        }
+
+        .side32 {
+            position: absolute;
+            top: 419px;
+            /* top: 85px; for your listing page */
+            left: 500px;
+            display: inline-block;
+            margin: 0px 0px;
+            padding: 0px 0px;
+
+        }
+
+        .side72 {
+            position: absolute;
+            top: 774px;
+            /* top: 85px; for your listing page */
+            left: 500px;
+            display: inline-block;
+            margin: 0px 0px;
+            padding: 0px 0px;
+
+        }
+
+        /* from here the css offfffffffffffffffffffffffffffffffff theeeeeeeee rattins star end */
+        /* this is the css extra for div ke written item so stsrt he,,,,,,,,,,,,,, */
+        .writtenitem {
+            margin: 20px;
+        }
+
+        #writtenitem {
+            margin: 0px 20px;
+        }
+
+        /* here the extra css for div ke witten   tem end ,,,,,,,,,,,,,,,,,,,,,,,, */
+        ul li a{
+            color: rgb(105, 69, 138);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="div4">
+            <img class="div41" src="img/ff image.png" alt="logo">
+            <div class="div42">food factory</div>
+
+        </div>
+        <div class="div5">
+            <ul class="navbar">
+                <li><a href="">home</a></li>
+                <li><a href="">about us </a></li>
+                <li><a href="">food</a></li>
+                <li><a href="igeclocation.html">location</a></li>
+            </ul>
+
+        </div>
+        <div class="div6">
+            <div class="div61"><a href="9009943057">
+                    <img src="img/callimage.jpg" alt="">
+                </a></div>
+            <div class="div62"><a href="anujkurmi.2001@gmail.com">
+                    <img src="img/emailimage.jpg" alt="">
+                </a></div>
+
+        </div>
+    </div>
+    <!-- from here listing main page start -->
+
+    <div class="container">
+        <div class="div1">
+            <div class="div11">
+
+                <ol class="ol1">
+                    <input type="checkbox">soft drink
+                    <li class="itemes">alphanso mango juice</li>
+                    <li class="itemes">rubista banana juice</li>
+                    <li class="itemes">kashmiri apple juice</li>
+                    <li class="itemes">the mix froot juice</li>
+                    <li class="itemes">lemon & mint juice</li>
+                </ol>
+
+                <ol class="ol2">
+                    <input type="checkbox">main food
+                    <li class="itemes">panir & tandori roti </li>
+                    <li class="itemes">chole & bhature</li>
+                    <li class="itemes">mix veg & paratha </li>
+                    <li class="itemes">palak puri & curd</li>
+                    <li class="itemes">itli & ambhar</li>
+                </ol>
+                <ol class="ol3">
+                    <input type="checkbox"> starter & snakes
+                    <li class="itemes">the russian cake </li>
+                    <li class="itemes">delecious pastery</li>
+                    <li class="itemes"> veg green</li>
+                    <li class="itemes">fritters</li>
+                    <li class="itemes">water boll</li>
+                </ol>
+            </div>
+
+
+
+        </div>
+        <div class="boxfortext">
+            this is our listing page ..
+        </div>
+        <div class="div2">
+            <div class="div21">
+                <img class="image" src="img/fullfood.jpg" alt="">
+
+            </div>
+            <div class="div22">
+
+                <div class="writtenitem">
+                    <h1>full indian thali</h1>
+                </div>
+                <!-- from here the html of the div rattin which is volume start -->
+
+                <div class="volume" id="writtenitem">
+                    <div class="ratting">
+                        <input type="radio" name="ratting" id="star1"><label for="star1"></label>
+                        <input type="radio" name="ratting" id="star2"><label for="star2"></label>
+                        <input type="radio" name="ratting" id="star3"><label for="star3"></label>
+                        <input type="radio" name="ratting" id="star4"><label for="star4"></label>
+                        <input type="radio" name="ratting" id="star5"><label for="star5"></label>
+
+                    </div>
+                    <div class="side">
+                        70 reviews
+
+                    </div>
+                </div>
+
+                <!-- from here the html of the div ratting which is volume end -->
+
+
+
+                <div class="writtenitem">
+                    <h4>
+                        best thali in banglore
+                    </h4>
+
+                </div>
+                <div class="writtenitem">
+                    <h4>rs. 400,00</h4>
+
+                </div>
+                <div class="writtenitem">
+
+                    <div class="button">
+                        <button class="btn">breakfast</button>
+                        <button class="btn">lunch</button>
+                        <button class="btn">dinnner</button>
+
+                    </div>
+
+                </div>
+                <div>
+
+
+
+
+                </div>
+
+            </div>
+            <div class="div3">
+                <div class="div31">
+                    <img class="image" src="img/cakepic.jpg" alt="">
+
+                </div>
+                <div class="div32">
+                    <div class="writtenitem">
+                        <h1>the russian cake</h1>
+                    </div>
+                    <!-- from here the html of the div rattin which is volume start -->
+
+                    <div class="volume" id="writtenitem">
+                        <div class="ratting">
+                            <input type="radio" name="ratting" id="star1"><label for="star1"></label>
+                            <input type="radio" name="ratting" id="star2"><label for="star2"></label>
+                            <input type="radio" name="ratting" id="star3"><label for="star3"></label>
+                            <input type="radio" name="ratting" id="star4"><label for="star4"></label>
+                            <input type="radio" name="ratting" id="star5"><label for="star5"></label>
+
+                        </div>
+                        <div class="side32">
+                            500 reviews
+
+                        </div>
+                    </div>
+
+                    <!-- from here the html of the div ratting which is volume end -->
+
+
+
+                    <div class="writtenitem">
+                        <h4>
+                            one piece cake in only our bakery
+                        </h4>
+
+                    </div>
+                    <div class="writtenitem">
+                        <h4>rs. 200,00</h4>
+
+                    </div>
+                    <div class="writtenitem">
+
+                        <div class="button">
+                            <button class="btn">breakfast</button>
+                            <button class="btn">lunch</button>
+                            <button class="btn">dinnner</button>
+
+                        </div>
+
+                    </div>
+                    <div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="div7">
+                <div class="div71">
+                    <img class="image" src="img/jucieglassimg.jpg" alt="">
+
+                </div>
+                <div class="div72">
+                    <div class="writtenitem">
+                        <h1>alphanso mango juice</h1>
+                    </div>
+                    <!-- from here the html of the div rattin which is volume start -->
+
+                    <div class="volume" id="writtenitem">
+                        <div class="ratting">
+                            <input type="radio" name="ratting" id="star1"><label for="star1"></label>
+                            <input type="radio" name="ratting" id="star2"><label for="star2"></label>
+                            <input type="radio" name="ratting" id="star3"><label for="star3"></label>
+                            <input type="radio" name="ratting" id="star4"><label for="star4"></label>
+                            <input type="radio" name="ratting" id="star5"><label for="star5"></label>
+
+                        </div>
+                        <div class="side72">
+                            110 reviews
+
+                        </div>
+                    </div>
+
+                    <!-- from here the html of the div ratting which is volume end -->
+
+
+
+                    <div class="writtenitem">
+                        <h4>
+                            special one fpr drink
+                        </h4>
+
+                    </div>
+                    <div class="writtenitem">
+                        <h4>rs. 150,00</h4>
+
+                    </div>
+                    <div class="writtenitem">
+
+                        <div class="button">
+                            <button class="btn">breakfast</button>
+                            <button class="btn">lunch</button>
+                            <button class="btn">dinnner</button>
+
+                        </div>
+
+                    </div>
+                    <div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+</body>
+
+</html>
